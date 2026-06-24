@@ -1,0 +1,15 @@
+class Demo2 
+{
+	public static void main(String[] args) 
+	{
+		//m1(123);
+		m1((byte)12);
+		//m1('A');
+		byte a = 'A';
+		m1(a);
+	}
+	
+	public static void m1(byte a){
+		System.out.println("m1() called");
+	}
+}

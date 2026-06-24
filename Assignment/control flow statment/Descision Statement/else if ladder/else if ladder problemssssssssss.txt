@@ -1,0 +1,91 @@
+// 1) Calculate income tax based on different tax slabs.
+
+// 2) Electricity bill calculation based on unit slabs.
+
+// 3) Calculate discount percentage based on purchase amount.
+
+// 4) Classify temperature as cold, normal, hot, very hot.
+
+// 5) Assign performance rating (Excellent, Good, Average, Poor).
+
+// 6) Determine shipping charges based on weight slabs.
+
+// 7) Determine loan eligibility based on salary range.
+
+// 8) WAP to check whether character is uppercase, lowercase, digit or none.
+
+// 9) Marks classification.
+
+// 10) Age based ticket price.
+
+// 11) Categorize internet speed into Slow, Moderate, Fast, Ultra-Fast.
+
+// 12) Determine salary increment percentage based on performance rating.
+
+// 13) Classify marks into Fail (<35), Pass, First Class, Distinction.
+
+// 14) Determine mobile recharge bonus based on recharge amount.
+
+// 15) Determine data plan category based on GB usage.
+
+// 16) Determine insurance premium slab based on age group.
+
+// 17) Categorize employee designation based on years of experience.
+
+// 18) Determine movie ticket price based on age and time slot.
+
+// 19) Determine penalty based on late submission days.
+
+// 20) Classify blood pressure level (Low, Normal, High).
+
+// 21) Determine eligibility for scholarship based on marks and income.
+
+// 22) Categorize percentage into Grade A+, A, B, C, Fail.
+
+// 23) Categorize a number as Very Small (<10), Small, Medium, Large, Very Large (>1000).
+
+// 24) Determine body temperature status: Hypothermia, Normal, Fever, High Fever.
+
+// 25) Determine typing speed category based on WPM.
+
+// 26) Categorize battery percentage: Critical, Low, Medium, High, Full.
+
+// 27) Determine internet signal strength (No Signal, Weak, Good, Strong).
+
+// 28) Categorize exam attendance percentage (Poor, Average, Good, Excellent).
+
+// 29) Determine water level status (Empty, Low, Medium, Full, Overflow).
+
+// 30) Categorize screen brightness level (Very Dim to Very Bright).
+
+// 31) Determine fuel tank status (Empty, Reserve, Half, Full).
+
+// 32) Assign GPA category (Fail, Pass, Merit, Distinction, Honors).
+
+// 33) Determine training performance (Needs Improvement, Satisfactory, Good, Outstanding).
+
+// 34) Categorize coding test score (Beginner, Intermediate, Advanced, Expert).
+
+// 35) Attendance-based eligibility (Not Eligible, Eligible, Excellent Record).
+
+// 36) Categorize credit card limit based on salary range.
+
+// 37) Categorize investment risk (Low, Moderate, High, Very High).
+
+// 38) Determine reward points category based on purchase value.
+
+// 39) Categorize loan tenure into Short, Medium, Long term.
+
+// 40) Categorize heart rate (Low, Normal, Elevated, High).
+
+// 41) Categorize sleep duration (Insufficient, Adequate, Oversleep).
+
+// 42) Categorize sugar level (Low, Normal, Prediabetic, Diabetic).
+
+// 43) Determine hydration level based on water intake.
+
+// 44) Categorize file size (Small, Medium, Large, Very Large).
+
+// 45) Categorize API response status codes (200-Success, 400-Client Error, 500-Server Error, Unknown).
+
+// 46) Determine software version category (Outdated, Stable, Latest, Beta).

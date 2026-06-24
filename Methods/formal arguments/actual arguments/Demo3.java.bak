@@ -1,0 +1,10 @@
+class Demo3{
+	public static void main(String[] args){
+		final char ch = 'A';
+		m1((byte)ch);
+	}
+	
+	public static void m1(byte ch){
+		System.out.println("m1 () ");
+	}
+}

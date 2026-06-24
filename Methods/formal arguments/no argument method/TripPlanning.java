@@ -1,0 +1,57 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+
+class TripPlanning 
+{
+	static String[] contactList ={"suresh","mahesh","Sunita","sakshi","pratiksha","mukesh","rakesh"};
+	public static void main(String[] args) 
+	{
+		String leader ="Ramehs";
+		ArrayList tripPlaning = tripPlaning();
+		System.out.println("Trip Details");
+		System.out.println(tripPlaning +"\n");
+		
+		ArrayList<String>members = new ArrayList<String>();
+		members.add("Ramesh");
+		for(String name : contactList){
+			boolean resp = isComing(name,tripPlaning);
+			if(resp){
+				members.add(name);
+			}
+		}
+		
+		System.out.println("members :" +members);
+		
+	}
+	
+	public static boolean isComing(String name, ArrayList tripPlaning){
+		System.out.println("Ramesh calling :" +name);
+		System.out.println(tripPlaning);
+		System.out.println();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Aa raha hai kya :");
+		String resp = sc.next();
+		if(resp.equalsIgnoreCase("HA")){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	public static ArrayList tripPlaning(){
+		
+		String location = "Goa";
+		String dateTime = "15.06.2026";
+		int days = 3;
+		String vehicle = "car";
+		double budget = 10000;
+		
+		ArrayList tripPlaning = new ArrayList();
+		tripPlaning.add(location);
+		tripPlaning.add(dateTime);
+		tripPlaning.add(days);
+		tripPlaning.add(vehicle);
+		tripPlaning.add(budget);
+		
+		return tripPlaning;
+   }
+}   

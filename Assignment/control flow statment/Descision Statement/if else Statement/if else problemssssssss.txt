@@ -1,0 +1,20 @@
+// 2) WAP to check given character is special character or not
+// 3) WAP to check given year is leap year or not
+// 4) Check number ends with 0
+// 5) Check if two numbers have same last digit
+// 6) Check if year is century year or not
+// 7) Check if char is digit but not '0'
+// 8) Check if char is special symbol but printable
+// 9) Check login where: username correct password wrong
+// 10) ATM withdrawal: insufficient balance
+// 11) Check if difference of two numbers is exactly 1
+// 12) Check if number is divisible by lastdigit or not
+// 13) Check if character is uppercase but not a vowel
+// 14) Check if character is lowercase and between 'm'–'z'
+// 16) Check if character is uppercase vowel only
+// 17) Check if character is hex digit
+// 18) Check if character is binary digit
+// 19) Check if ASCII value is even
+// 20) Check if char is digit AND even
+// 21) Check if char is octal digit
+// 22) WAP to check given number is even or not, without using % operator

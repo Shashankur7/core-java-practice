@@ -1,0 +1,9 @@
+// 2. Convert float to int and observe decimal loss. 
+
+class FloatToInt{
+	public static void main(Stringp[] args){
+		float f = 20;
+		int a = (int) f;
+		System.out.println(a);
+	}
+}
