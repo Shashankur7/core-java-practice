@@ -1,0 +1,23 @@
+class StaticVarExample4 
+{
+	static String str = "Static ver form Example4";
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+class Example2
+{
+	{
+		System.out.println("non static block from Example2 " +StaticVarExample4.str);
+	}
+	public void m1(){
+		System.out.println("non static m1() " +StaticVarExample4.str);
+	}
+	class InnerClass
+	{
+		public void m2(){
+			System.out.println("non static m2() form InnerClass " +StaticVarExample4.str);
+		}
+	}
+}
