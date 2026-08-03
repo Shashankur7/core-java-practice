@@ -14,6 +14,7 @@ class Demo1
 	{
 		static void m2(){
 			System.out.println("m2");
+			Demo3.m3();
 	}
 }
 	class Demo3
