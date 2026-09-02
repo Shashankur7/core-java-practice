@@ -1,0 +1,23 @@
+class StatiacVarExample 
+{
+	static String str = "Static variable Example";
+	static{
+			System.out.println("static block " +str);
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("main() " +str);
+		m1();
+		Innerclass.m2();
+	}
+	public static void m1(){
+		System.out.println("Static m1() methot" +str);
+	}
+	static class Innerclass
+	{
+		public static void m2(){
+		System.out.println("m2() from static InnerClass" +str);
+		}
+	}
+	
+}

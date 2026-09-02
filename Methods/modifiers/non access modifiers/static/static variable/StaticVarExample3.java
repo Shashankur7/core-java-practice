@@ -1,0 +1,25 @@
+class StaticVarExample3 
+{
+	static String str = "Static var From Example3";
+	public static void main(String[] args) 
+	{
+		Example1.m1();
+		Example1.InnerClass.m2();
+	}
+}
+class Example12
+{
+	static{
+		System.out.println("static block from Example1" +StaticVarExample3.str);
+	}	
+
+	public static void m1(){
+		System.out.println("m1 form Example1" +StaticVarExample3.str);
+	}
+	static class InnerClass
+	{
+		public static void m2(){
+			System.out.println("m2() from InnerClass Example1" +StaticVarExample3.str);
+		}	
+	}
+}

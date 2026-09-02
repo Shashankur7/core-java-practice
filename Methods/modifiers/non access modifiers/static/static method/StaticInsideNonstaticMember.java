@@ -1,0 +1,31 @@
+class StaticInsideNonstaticMember 
+{
+	 StaticInsideNonstaticMember(){
+		System.out.println("Constructor");
+	}
+	{
+		System.out.println("non-static block");
+		m1();
+	}
+	public static void main(String[] args) 
+	{
+		m1();
+		
+	}
+	public static void m1(){
+		System.out.println("m1() static method");
+	}
+	public  void  m2(){
+		System.out.println("m2() non-static method");
+		m1();
+	}
+	static class innerClass
+	{
+		public static void m3(){
+			System.out.println("m3() non-static innerclass");
+			m1();
+	
+		}
+	}
+	
+}

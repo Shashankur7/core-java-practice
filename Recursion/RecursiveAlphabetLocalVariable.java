@@ -1,0 +1,14 @@
+class  RecursiveAlphabetLocalVariable
+{
+	public static void main(String[] args) 
+	{
+		
+		printAlphabet('a');
+	}
+		public static void printAlphabet(char ch ){
+			System.out.println(ch+ " ");
+			if(ch++ ==122) return;
+			printAlphabet(ch);
+	}
+			
+}

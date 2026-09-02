@@ -1,0 +1,26 @@
+public final class Demo 
+{
+	public static void main(String[] args) 
+	{
+		m1();
+		int a = 10 , b = 20;
+		int add = add(a,b);
+		System.out.println(add);
+		
+	}
+	public static strictfp int add(int a, int b){
+		int op = a + b;
+		return op;
+	}
+	public static  void m1(){
+		System.out.println("m1 starts");
+		try{
+			System.out.println(10/0);
+		}
+		catch(ArithematicException e){
+			System.out.println("Exception handled");
+		}
+		System.out.println("m1 ends");
+	}
+	
+}

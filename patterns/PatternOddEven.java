@@ -1,0 +1,22 @@
+class  PatternOddEven
+{
+	public static void main(String[] args) 
+	{
+		int n = 3;
+		int ch = 1;
+		for (int i = 1; i <= n ; i++ )
+		{
+			for (int j =  1; j <= n ; j++ )
+			{
+				if(i%2 != 0)
+					System.out.print(ch++ +" " );
+				else
+					System.out.print(ch-- +" ");
+			}
+			System.out.	println();
+			if(i%2 != 0)ch+=(n-1);
+			else ch+= (n+1);
+		}
+		
+	}
+}
