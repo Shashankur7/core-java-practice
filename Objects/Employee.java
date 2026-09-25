@@ -28,7 +28,8 @@ class DriverExample{
 		emp1.salary = 50000;
 		emp1.contact = 98765443210l;
 		emp1.displayEmployee();
-		System.out.println("_______________________________");
+		System.out.println("--------------------------------");
+		
 
 		Employee emp2 = new Employee();
 		emp2.name = "Suresh kumar";
