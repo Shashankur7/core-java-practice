@@ -47,6 +47,7 @@ class  NumberProgram
 		if(cnt!=0 && freq<cnt){
 			freq = cnt;
 			highestDigit = i;
+			System.out.println("------");
 		}
 	}
 		System.out.println(highestDigit+ " : "+freq);
