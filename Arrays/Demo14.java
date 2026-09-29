@@ -7,5 +7,7 @@ class Demo14{
 			pro *= a[i];
 		}
 		System.out.println(pro);
+		System.out.println(pro);
+		
 	}
 } 
