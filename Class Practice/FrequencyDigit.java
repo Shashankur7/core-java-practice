@@ -119,6 +119,7 @@ public static int highestRepeatingDigit(int i, int num, int cnt){
 			cnt++;
 			
 		return highestRepeatingDigit(i , num / 10 , cnt);
+		System.out.prinltn("..");
 		
 	}
 		
