@@ -49,6 +49,7 @@ class FrequencyDigit
 		if(num == 0) return cnt;
 		if(i == (num%10)) cnt++;
 		return uniqueDigit(i , num/10, cnt);
+		System.out.println("---");
 	}
 	
 	//duplicateDigit
