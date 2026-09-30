@@ -6,6 +6,9 @@ class Solution{
 			if(str.charAt(i)!=str.charAt(j)) return false;
 		System.out.println("------");
 		System.out.println("----------");
+		System.out.println("----------");
+		System.out.println("----------");
+		System.out.println("----------");
 		
 		return true;
 	}
