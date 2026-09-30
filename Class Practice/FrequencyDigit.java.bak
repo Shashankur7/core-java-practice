@@ -8,7 +8,7 @@ class FrequencyDigit
 		//uniqueDigit(num, 0);
 		//highestRepeatingDigit(num,0);
 		leastRepeatedDigit(num , 0);
-		
+		System.out.println(num);
 	}
 	public static void freqDgt(int num , int i){
 		if(i > 9) return;
