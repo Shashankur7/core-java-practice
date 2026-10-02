@@ -89,6 +89,7 @@ class  NumberProgram
 		}
 		if(cnt == 1)
 			System.out.print(i+"  ");
+			System.out.println("----------------");
 		}
 	}
 	
