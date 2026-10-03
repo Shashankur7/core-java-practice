@@ -86,6 +86,7 @@ class  NumberProgram
 				int rem = dup%10;
 				if(i == rem) cnt++;
 				dup /= 10;
+				System.out.println("--------------------,,,");
 		}
 		if(cnt == 1)
 			System.out.print(i+"  ");
