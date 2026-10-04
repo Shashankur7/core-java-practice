@@ -8,5 +8,6 @@ class ProductOfFive{
 			num *= i;
 		}
 		System.out.println(num);
+		System.out.println("-...");
 	}
 }
