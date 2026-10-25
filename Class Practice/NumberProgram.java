@@ -9,6 +9,7 @@ class  NumberProgram
 		//duplicateDigits(num);
 		//highestRepeatingDigit(num);
 		//leastReapeatingDigit(num);
+		System.out.println("----------");
 		
 	}
 	public static void leastReapeatingDigit(int num){
