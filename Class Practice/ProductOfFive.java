@@ -7,6 +7,7 @@ class ProductOfFive{
 		for (int i = 1; i <= 5 ; i += 2){
 			num *= i;
 		}
+		System.out.println("-...");
 		System.out.println(num);
 		System.out.println("-...");
 	}
