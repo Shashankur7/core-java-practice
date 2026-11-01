@@ -10,7 +10,7 @@ public class Instagram   {
 
 	public void welcome() {
 		while (true) {
-			System.out.println(" WELCOME TO INSTA");
+			System.out.println(" WELCOME TO INSTAGRAM ");
 			System.out.println("1.LOGIN  \n2.Create Account");
 			System.out.println("Enter an option : ");
 			int option = new Scanner(System.in).nextInt();
